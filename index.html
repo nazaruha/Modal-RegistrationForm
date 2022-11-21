@@ -2,9 +2,21 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ModalRegForm</title>
 
+    <!--CSS-->
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" /> <!--Bootstrap-->
+</head>
+<body class="pt-5">
+    <!-- d-flex justify-content-center (center elements)-->
+    <div class="container d-flex justify-content-center">
+        <button class="btn btn-primary fs-5" data-bs-toggle="modal" data-bs-target="#productRegistrationModal" id="btnOpen">Register Product</button>
+    </div>
+
+    <!--JS-->
+    <script src="js/productRegistration-modal.js"></script> <!--Registration Modal Window include-->
+    <script src="js/productRegistration-logick.js"></script> <!--Registration Modal Window code-->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script> <!--Bootstrap-->
 </body>
 </html>
