@@ -1,0 +1,59 @@
+﻿<!-- Product registration Modal -->
+<div class="modal fade" id="productRegistrationModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Product registration Modal</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="alert alert-success" style="display: none;" id="showSuccess"></div>
+                <div class="row g-3 align-items-center">
+                    <div class="col-auto">
+                        <label for="txtName" class="col-form-label">Name</label>
+                    </div>
+                    <div class="col-auto">
+                        <input id="txtName" class="form-control" aria-describedby="nameHelp">
+                    </div>
+                    <div class="col-auto">
+                        <span id="nameHelp" class="form-text">
+                            Input product's name
+                        </span>
+                    </div>
+                </div>
+                <div class="row g-3 align-items-center mt-3">
+                    <div class="col-auto">
+                        <label for="txtType" class="col-form-label">Type</label>
+                    </div>
+                    <div class="col-auto">
+                        <input id="txtType" class="form-control" aria-describedby="typeHelp">
+                    </div>
+                    <div class="col-auto">
+                        <span id="typeHelp" class="form-text">
+                            Input product's type
+                        </span>
+                    </div>
+                </div>
+                <div class="row g-3 align-items-center mt-3" id="photo-row">
+                    <div class="col-lg-3 col-md-6 mt-0">
+                        <img src="images/photo.png" class="card-img" id="photoFirst" style="height: 100px;" />
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-0">
+                        <img src="images/photo.png" class="card-img" id="photoSecond" style="height: 100px;" />
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-0">
+                        <img src="images/photo.png" class="card-img" id="photoThird" style="height: 100px;" />
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-0">
+                        <img src="images/photo.png" class="card-img" id="photoFourth" style="height: 100px;" />
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="btnClose">Close</button>
+                <button type="button" class="btn btn-primary" id="btnSave">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
